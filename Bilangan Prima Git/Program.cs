@@ -16,7 +16,14 @@ namespace Bilangan_Prima_Git
                     jumlahFaktor += 1;
                 }
             }
-
+            if (jumlahFaktor == 2)
+            {
+                Console.Write("Input merupakan bilangan prima");
+            }
+            else
+            {
+                Console.Write("Input bukan bilangan prima");
+            }
         }
     }
 }
